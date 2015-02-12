@@ -1,0 +1,19 @@
+<ion-modal-view>
+    <ion-header-bar>
+        <h1 class="title">{{'SETTINGS_TITLE' | translate}}</h1>
+    </ion-header-bar>
+    <ion-content>
+        <form>
+            <div class="list">
+                <label class="item item-input item-select">
+                    <span class="input-label">{{'LANGUAGE' | translate}}</span>
+                    <select ng-model="dataList.language" ng-options="item.ID as item.NAME for item in allLanguages">
+                    </select>
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-full button-energized" ng-click="$parent.closeSettingsModal()">{{'SETTINGS_CLOSE' | translate}}</button>
+            </div>
+        </form>
+    </ion-content>
+</ion-modal-view>

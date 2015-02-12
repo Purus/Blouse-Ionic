@@ -1,0 +1,33 @@
+<ion-view view-title="{{'DESIGNS' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ng-click="showPopOver($event)">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-slide-box show-pager="false" on-slide-changed="slideChanged($index)">
+        <ion-slide ng-repeat="item in dataItems">
+            <ion-content>
+                <div class="list card">
+
+                    <div class="item tabs tabs-secondary tabs-icon-left">
+                        <a class="tab-item" href="#" ng-click="shareImageNow(item)">
+                            <i class="icon ion-share"></i>
+                            {{'SHARE_DESIGN' | translate}}
+                        </a>
+                    </div>
+                    <div class="item item-body">
+                        <img class="full-image" ng-src="{{item.url}}">
+                        <p class="title" ng-show="item.user !== null">
+                            {{ 'UPLOAD_BY' | translate}}<b>{{item.user}}</b>
+                        </p>
+                        <small>{{item.date | date:'medium'}}</small>
+
+                        <p class="subdued" ng-show="item.notes">
+                            {{'NOTES' | translate}}{{item.notes}}</p>
+                    </div>
+
+            </ion-content>
+        </ion-slide>
+    </ion-slide-box>
+
+</ion-view>

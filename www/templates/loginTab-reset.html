@@ -1,0 +1,20 @@
+<ion-view view-title="{{'RESET_PASSWORD_TITLE' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ng-click="showPopOver($event)">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content class="padding">
+        <form id="reset-form">
+            <div class="list">
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">{{'EMAIL_ADDRESS' | translate}}</span>
+                    <input type="email" id="reset-username" placeholder="{{'EMAIL_ADDRESS' | translate}}" ng-model="user.email" required/>
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-block button-positive" ng-click="resetUser()">{{'REQUEST_PASSWORD' | translate}}</button>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

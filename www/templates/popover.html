@@ -1,0 +1,24 @@
+<ion-popover-view>
+    <ion-content>
+        <div class="list">
+            <a class="item ion-log-out" href="#" ng-click="$parent.logOutUser()" ng-show="$parent.currentUser">
+                {{'LOGOUT' | translate}}
+            </a>
+            <a class="item ion-settings" href="#" ng-click="$parent.showSettings()">
+              {{'SETTINGS_MENU' | translate}}
+            </a> 
+            <a class="item ion-share" href="#" ng-click="$parent.shareNow()">
+              {{'SHARE_APP' | translate}}
+            </a>
+            <a class="item ion-heart" href="#" ng-click="$parent.rateApp()">
+              {{'RATE_APP' | translate}}
+            </a> 
+            <a class="item ion-information-circled" href="#" ng-click="$parent.showAboutDialog()">
+              {{'ABOUT_US' | translate}}
+            </a> 
+            <a class="item ion-help" href="#" ng-click="$parent.showHelpDialog()">
+              {{'HELP' | translate}}
+            </a> 
+        </div>
+    </ion-content>
+</ion-popover-view>

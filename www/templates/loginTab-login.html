@@ -1,0 +1,27 @@
+<ion-view view-title="{{'LOGIN_TITLE' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ng-click="showPopOver($event)">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content class="padding">
+        <form id="login-form">
+
+            <div class="list">
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">{{'EMAIL_ADDRESS' | translate}}</span>
+                    <input type="email" id="login-email" placeholder="{{'EMAIL_ADDRESS' | translate}}" required ng-model="user.email" />
+                </label>
+                <label class="item item-input item-floating-label">
+                    <span class="input-label">{{'PASSWORD' | translate}}</span>
+                    <input type="password" id="login-password" placeholder="{{'PASSWORD' | translate}}" required ng-model="user.password" />
+                </label>
+            </div>
+
+            <div class="padding">
+                <button class="button button-block button-positive" ng-click="validateUser()">{{'LOGIN' | translate}}</button>
+            </div>
+
+        </form>
+    </ion-content>
+</ion-view>

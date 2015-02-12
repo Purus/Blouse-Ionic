@@ -1,0 +1,32 @@
+<ion-view view-title="{{'CREATE_NEW_TITLE' | translate}}">
+
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ng-click="showPopOver($event)">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content class="padding">
+        <form id="signup-form">
+            <div class="list list-inset">
+                <label class="item item-input">
+                    <input type="email" id="signup-email" placeholder="{{'EMAIL_ADDRESS' | translate}}" value="" ng-model="user.email" required/>
+                </label>
+                <label class="item item-input">
+                    <input type="password" id="signup-password" placeholder="{{'CREATE_PASSWORD' | translate}}" value="" ng-model="user.password" required/>
+                </label>
+                <label class="item item-input">
+                    <input type="password" id="signup-repassword" placeholder="{{'RETYPE_PASSWORD' | translate}}" value="" ng-model="user.repassword" required/>
+                </label>
+                <label class="item item-input">
+                    <input type="text" id="signup-displayname" placeholder="{{'DISPLAY_NAME' | translate}}" value="" ng-model="user.displayname" required />
+                </label>
+                <label class="item item-input">
+                    <input type="tel" id="signup-telephone" placeholder="{{'TELEPHONE' | translate}}" ng-model="user.telephone" value="" />
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-block button-positive" ng-click="signupUser()">{{'SIGNUP' | translate}}</button>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

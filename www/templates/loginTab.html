@@ -1,0 +1,17 @@
+<ion-tabs class="tabs-top tabs-icon-top tabs-color-active-positive">
+
+    <!-- Login Tab -->
+    <ion-tab title="{{'LOGIN_TAB' | translate}}" icon-off="ion-log-in" icon-on="ion-log-in" ui-sref="#/loginTab/login">
+        <ion-nav-view name="tab-login"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Signup Tab -->
+    <ion-tab title="{{'SIGNUP_TAB' | translate}}" icon-off="ion-compose" icon-on="ion-compose" href="#/loginTab/signup">
+        <ion-nav-view name="tab-signup"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Reset Tab -->
+    <ion-tab title="{{'RESET_TAB' | translate}}" icon-off="ion-email" icon-on="ion-email" href="#/loginTab/reset">
+        <ion-nav-view name="tab-reset"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

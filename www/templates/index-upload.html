@@ -1,0 +1,58 @@
+<ion-view view-title="{{'UPLOAD_DESIGN_TITLE' | translate}}">
+    <ion-nav-buttons side="right">
+        <button class="button icon ion-gear-a" ng-click="showPopOver($event)">
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content class="padding">
+
+        <div ng-switch on="currentUser">
+
+            <div id="forGuestUsers" ng-switch-when="false">
+                <div class="card">
+                    <div class="item item-text-wrap royal">
+                        {{'GUEST_TIP_1' | translate}}
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="item item-text-wrap royal">
+                        {{'GUEST_TIP_2' | translate}}
+                    </div>
+                </div>
+                <button class="button button-block button-balanced" ui-sref="loginTab.login" nav-direction="forward">{{'LOGIN' | translate}}</button>
+                <p style="text-align:center">{{'OR' | translate}}</p>
+                <button class="button button-block button-assertive" ui-sref="loginTab.signup" nav-direction="back">{{'SIGNUP' | translate}}</button>
+            </div>
+
+            <div id="forLoginUsers" ng-switch-when="true">
+
+                <div class="padding">
+                    <button class="button button-block button-positive" ng-click="selectGallery()" ng-show="imageUrl == null">{{'UPLOAD_FROM_GALLERY' | translate}}</button>
+                    <button class="button button-block button-positive" ng-click="takeCamera()" ng-show="imageUrl == null">{{'UPLOAD_FROM_CAMERA' | translate}}</button>
+                </div>
+
+                <div class="list" ng-hide="imageUrl == null">
+                    <label class="item item-input item-floating-label">
+                        <span class="input-label">{{'COMMENTS_OPTIONAL' | translate}}</span>
+                        <textarea name="notes" placeholder="Comments (optional)" ng-model="data.comments"></textarea>
+                    </label>
+                </div>
+
+                <div class="padding">
+                    <button class="button button-block button-positive" ng-click="uploadImage()" ng-hide="imageUrl == null">{{'SUBMIT_DESIGN' | translate}}</button>
+                    <button class="button button-block button-positive" ng-click="$parent.imageUrl = null" ng-hide="imageUrl == null">{{'CANCEL' | translate}}</button>
+                </div>
+
+                <div class="list card" ng-hide="imageUrl == null">
+                    <div class="item">
+                        <h2>{{'PREVIEW' | translate}}</h2>
+                    </div>
+                    <div class="item item-body">
+                        <img id="imgDiv" class="full-image" ng-src="{{imageUrl}}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>
