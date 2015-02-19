@@ -1,0 +1,82 @@
+{
+    "SHARE_DESIGN":  "यह डिज़ाइन शेयर करो”,
+    "SHARE_APP": "Share App", शेयर ऍप
+    "RATE_APP": "Rate App", रेट ऍप
+    "ABOUT_US": "About Us", हमारे बारेमे
+    "HELP": "Help", मदत
+    "EMAIL_ADDRESS": "Email Address", ईमेल पता
+    "PASSWORD": "Password", पासवर्ड
+    "LOGIN": "Login",  लॉगइन
+   "SIGNUP": "Signup", साइन अप करें
+    "CREATE_PASSWORD": "Create New Password",  नया पासवर्ड डालिये
+    "RETYPE_PASSWORD": "Retype Password", फ्हिर से पासवर्ड डालिये
+    "DISPLAY_NAME": "Your Name", आपका नाम
+    "TELEPHONE": "Telephone (optional)", टेलीफोन(ऐच्छिक)
+    "REQUEST_PASSWORD": "Request Password",  पासवर्ड के लिए बिनती
+    "UPLOAD_BY": "Uploaded by:", किसने अपलोड किया
+    "NOTES": "Notes: ", टिप्पणियाँ
+    "DESIGNS": "Blouse Designs", ब्लाउज डिजाइन
+    "LOGOUT": "Logout", लॉगआउट
+    "LOGIN_TAB": "Login", लॉगिन
+    "SIGNUP_TAB": "Signup",  साइन अप करें
+    "RESET_TAB": "Reset",  रिसेट
+    "LOGIN_TITLE": "Login Now", अब प्रवेश करें
+    "CREATE_NEW_TITLE": "Create New User",  नया उपयोगकर्ता बनाने
+    "RESET_PASSWORD_TITLE": "Reset Password", पासवर्ड रीसेट
+    "SHARE_DESIGN_SUBJECT": "Blouse Design For You",  आप के लिए ब्लाउज डिजाइन
+    "SHARE_DESIGN_MESSAGE": "Hope you like this blouse design, shared from \"Blouse Design\" App", "\ब्लाउज डिजाइन \ " App से साझा किए गए इस ब्लाउज डिजाइन  को पसंद करे.
+    "SHARE_APP_SUBJECT": "Blouse Design App for Android", ब्लाउज डिज़ाइन ऐप्प फॉर एंड्रॉयड
+    "SHARE_APP_MESSAGE": "Please join us and be a member in our \"Blouse Design\" App", कृपया शामिल हो व मेंबर बने इस “\ब्लाउज डिजाइन \” App के.
+    "UPLOAD": "Upload", अपलोड कीजिये
+1.	    "VIEW": "View", व्यू
+    "UPLOAD_DESIGN_TITLE": "Upload your Designs", अपने डिजाइन अपलोड करे
+    "OR": "- OR -", उसके आलावा
+    "GUEST_TIP_1": "Please login or register to upload designs", कृपया  लॉगिन या डिजाइन अपलोड करने के लिए रजिस्टर करे
+1.	    "GUEST_TIP_2": "Now capture via camera or upload existing image. Try now!", अब कैमरे के माध्यम से कब्जा करने या मौजूदा छवि अपलोड करें। अब कोशिश करो! ",
+
+    "UPLOAD_FROM_GALLERY": "Choose From Gallery", गैलरी से चयन करो
+1.	    "UPLOAD_FROM_CAMERA": "Camera Capture", कैमरे पर कब्जा
+
+    "CANCEL": "Cancel", रद्द करना 
+    "SUBMIT_DESIGN": "Submit your Design", अपने डिजाइन सबमिट करें
+    "PREVIEW": "Preview",  पूर्वावलोकन
+    "COMMENTS_OPTIONAL": "Comments (optional)", टिप्पणी ( वैकल्पिक)
+    "ABOUT_MESSAGE": "Thanks for using our app.<br/><br/>This is a dedicated app for sharing blouse designs across the world.<br/><br/>This app is made with love by iYaffle Technologies.", हमारे अनुप्रयोग का उपयोग करने के लिए धन्यवाद । <br/> <br/> यह दुनिया भर में ब्लाउज डिजाइन साझा करने के लिए एक समर्पित app है। <br/> <br/> यह एप्लिकेशन iYaffle टेक्नोलॉजीज द्वारा प्यार के साथ किया जाता है।
+    "ABOUT_TITLE": "About Us",  हमारे बारेमे
+    "OK": "OK", ठीक 
+    "HELP_TITLE": "Help?", मदद?
+    "HELP_MESSAGE": "For any questions, ideas, suggestions, feedbacks & issues please feel free to email us at info@iYaffle.com and we would love to hear from you.", किसी भी सवाल का , विचारों , सुझाव, प्रतिपुष्टि एवं मुद्दों के लिए info@iYaffle.com पर हमें ईमेल करने के लिए स्वतंत्र महसूस करे . हम आप से सुनने.
+    "SETTINGS_MENU": "Settings", सेटिंग
+1.	    "SETTINGS_TITLE": "Your Settings", अपनी सेटिंग
+
+1.	    "LANGUAGE": "Language",  भाषा
+
+1.	    "SETTINGS_CLOSE": "Close Settings", सेटिंग बंद करे
+
+    "RATE_TITLE": "Rate our App",  हमारे app को अंकित करे
+
+    "RATE_CANCEL": "No, Thanks", जी नहीं, धन्यवाद
+    "RATE_LATER": "Later", बाद मैं
+
+    "RATE_NOW": "Rate Now", अब अंकित करें
+    "RATE_MESSAGE": "If you enjoy using our app, would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!", आप हमारे app का उपयोग कर मजा है, तो आप यह दर के लिए एक क्षण ले मन होगा? यह एक मिनट से अधिक नहीं ले जाएगा। आपके समर्थन के लिए धन्यवाद
+    "REMOTE_ERROR" : "Error reaching our server. Please retry again.", हमारे सर्वर तक पहुँचने में त्रुटि। फिर पुन: प्रयास करें ।
+    "INVALID_IMAGE" : "Invalid Image. Please retry again.", अमान्य छवि । फिर पुन: प्रयास करें । "
+    "DEVICE_ONLINE" : "Your device is now online", आपकी डिवाइस अब ऑनलाइन है
+    "DEVICE_OFFLINE" : "Your device is now offline. To use this app, you need to be online.", आपकी डिवाइस अब ऑफ़लाइन है। इस एप्लिकेशन का उपयोग करने के लिए, आप ऑनलाइन होने की जरूरत
+1.	    "INPUTS_MISSING" : "Please provide all required input", सभी आवश्यक इनपुट प्रदान करें
+
+    "INVALID_LOGIN" : "Invalid Login Details. Check email and password details.", अवैध प्रवेश जानकारी। ईमेल और पासवर्ड विवरण की जाँच करें।
+    "PASSWORD_MISMATCH":"Password and Confirm Password don't match", पासवर्ड और पुष्टि पासवर्ड मेल नहीं खाते
+1.	    "NEW_USER_FAIL" : "Resisteration Failed. Please retry again.", पंजीकरण असफल। फिर पुन: प्रयास करें ।
+
+    "NEW_USER_SUCCESS" : "You have successfully registerd", आपने सफलतापूर्वक रजिस्टर कर लिया है
+    "PASSWORD_RESET_OK":"Reset instructions emailed to you", आपको ईमेल रीसेट निर्देश भेजा है 
+    "PASSWORD_RESET_FAIL":"Email not in our system. Check the email address provided.", हमारे सिस्टम में ईमेल नहीं है । उपलब्ध कराए गए ई-मेल पते की जाँच करें
+    "UPLOAD_OK" : "Your design successfully uploaded", अपने डिजाइन सफलतापूर्वक अपलोड हुवे.
+    "UPLOAD_FAIL" : "Upload failed. Please retry.", अपलोड विफल। कृपया फिर से कोशिश करें
+    "ENGLISH": "English",
+    "TAMIL": "தமிழ்",
+    "KANNADA" : ""
+                “HINDI”:’ हिंदी’
+}
